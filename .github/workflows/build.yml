@@ -139,7 +139,7 @@ jobs:
           if-no-files-found: error
           retention-days: 14
   windows:
-    if: false
+    if: true
     needs: checks
     runs-on: windows-latest
     timeout-minutes: 45
